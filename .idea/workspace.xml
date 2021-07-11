@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c9cc7045-3bfd-46e4-99ef-e0f160707fdb" name="Default Changelist" comment="" />
+    <list default="true" id="c9cc7045-3bfd-46e4-99ef-e0f160707fdb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Main.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,44 +13,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Phase1$Main.coverage" NAME="Main Coverage Results" MODIFIED="1622796124840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Phase1$Tests.coverage" NAME="Tests Coverage Results" MODIFIED="1625984364950" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Phase1$Main.coverage" NAME="Main Coverage Results" MODIFIED="1625984683806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-1537043982">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.19" value="3" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
           <entry key="project.open.time.23" value="2" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.34" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="11" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="7" />
-          <entry key="py" value="10220" />
+          <entry key="py" value="11692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="7" />
-          <entry key="Python" value="10220" />
+          <entry key="Python" value="11692" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="8" />
+          <entry key="py" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="8" />
+          <entry key="Python" value="10" />
         </counts>
       </usages-collector>
     </session>
@@ -56,10 +62,24 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            <state relative-caret-position="775">
+              <caret line="225" column="36" selection-start-line="225" selection-start-column="36" selection-end-line="225" selection-end-column="36" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+              <folding>
+                <marker date="1625983629052" expanded="true" signature="34:225" ph="..." />
+                <marker date="1625983629052" expanded="true" signature="236:241" ph="..." />
+                <marker date="1625983629052" expanded="true" signature="236:966" ph="..." />
               </folding>
             </state>
           </provider>
@@ -68,23 +88,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Classes.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+            <state relative-caret-position="1020">
+              <caret line="60" column="23" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="23" />
               <folding>
-                <marker date="1622709223790" expanded="true" signature="24:25" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="24:29" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:454" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:456" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:459" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:462" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:463" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:464" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:466" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:468" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:471" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="451:472" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="807:2087" ph="..." />
-                <marker date="1622709223790" expanded="true" signature="2122:2127" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="24:25" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="24:29" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:499" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:501" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:504" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:507" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:508" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:509" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:511" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:513" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:516" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="496:517" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="852:2132" ph="..." />
+                <marker date="1625939029900" expanded="true" signature="2167:2172" ph="..." />
               </folding>
             </state>
           </provider>
@@ -110,13 +130,20 @@
       <find>headers</find>
       <find>search</find>
       <find>one wor</find>
+      <find>convertDictionar</find>
+      <find>addNewPosting</find>
+      <find>allrows</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Term.py" />
         <option value="$PROJECT_DIR$/Classes.py" />
+        <option value="$PROJECT_DIR$/Tests.py" />
         <option value="$PROJECT_DIR$/Main.py" />
       </list>
     </option>
@@ -171,6 +198,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -187,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Main">
     <configuration name="Main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Phase1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -210,9 +238,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Tests" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Phase1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tests.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Main" />
+      <item itemvalue="Python.Tests" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Main" />
+        <item itemvalue="Python.Tests" />
       </list>
     </recent_temporary>
   </component>
@@ -231,14 +286,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32967034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32967034" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997253" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -267,8 +321,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Main.py</url>
-          <line>113</line>
+          <line>115</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Tests.py</url>
+          <line>53</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -342,35 +401,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
+    <entry file="file://$PROJECT_DIR$/Tests.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        <state relative-caret-position="272">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
           <folding>
-            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1625983629052" expanded="true" signature="34:225" ph="..." />
+            <marker date="1625983629052" expanded="true" signature="236:241" ph="..." />
+            <marker date="1625983629052" expanded="true" signature="236:966" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="40" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+        <state relative-caret-position="1020">
+          <caret line="60" column="23" selection-start-line="60" selection-start-column="13" selection-end-line="60" selection-end-column="23" />
           <folding>
-            <marker date="1622709223790" expanded="true" signature="24:25" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="24:29" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:454" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:456" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:459" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:462" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:463" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:464" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:466" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:468" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:471" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="451:472" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="807:2087" ph="..." />
-            <marker date="1622709223790" expanded="true" signature="2122:2127" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="24:25" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="24:29" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:499" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:501" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:504" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:507" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:508" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:509" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:511" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:513" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:516" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="496:517" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="852:2132" ph="..." />
+            <marker date="1625939029900" expanded="true" signature="2167:2172" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="225" column="36" selection-start-line="225" selection-start-column="36" selection-end-line="225" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
           </folding>
         </state>
       </provider>

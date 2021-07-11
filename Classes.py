@@ -5,12 +5,14 @@ class Term:
         self.term = term
         self.postings = {}
         self.count = 0
+        self.Df = 0
 
     def addNewPosting(self, id):  # also it must call after initation of the class to add first term in postings list
         self.count +=1
         if id in self.postings:
             self.postings[id].increaseCount()
         else:
+            self.Df += 1
             self.postings[id] = DocId(id)
     def addPostingsInMerge(self, id , count):#just for merge state
         if id in self.postings:

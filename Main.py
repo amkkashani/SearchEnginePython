@@ -1,3 +1,4 @@
+import heapq as hq
 import operator
 import re
 import os
@@ -19,7 +20,7 @@ allrows = []
 
 def main():
     global dictionary
-    xlsx = load_workbook('original.xlsx')
+    xlsx = load_workbook('sample.xlsx')
     sheet = xlsx.active
     rows = sheet.rows
     setupVerbs()
@@ -111,12 +112,13 @@ def main():
 
 
 
-        if len(list(elements)) == 1:
-            print("one word found ")
-            searchOneWord(elements[0])
-        else:
-            print("multiple word found ")
-            searchMultipleWord(elements)
+        tf_idf(elements)
+        # if len(list(elements)) == 1:
+        #     print("one word found ")
+        #     searchOneWord(elements[0])
+        # else:
+        #     print("multiple word found ")
+        #     searchMultipleWord(elements)
 
 
 
@@ -183,6 +185,47 @@ def searchMultipleWord(terms):
 
     for key in sortedResults.keys():
         print("" + key.__str__() + "  point : " + sortedResults[key].__str__()  + "  url : " + allrows[key]['url'])
+
+
+def tf_idf(terms): # based on page 38 ch.6
+    how_many_results = 15
+    points = {}
+
+    for term in terms:
+        term = matchingWords(term)
+        if term in dictionary:
+            queryTerm_tfid = math.log10(1 + 1) * math.log10(len(allrows) / dictionary[term].Df)
+            foundedTerm = dictionary[term]
+            for posting in foundedTerm.postings:
+                addedDocPoint = math.log10(1 + foundedTerm.postings[posting].inDocCount) * math.log10(len(allrows) / foundedTerm.Df)
+                if posting in points:
+                    points[posting] = (points[posting] + addedDocPoint) * queryTerm_tfid
+                else:
+                    points[posting] = addedDocPoint * queryTerm_tfid
+
+            for doc_id in points:
+                points[doc_id] = points[doc_id] / len(allrows[doc_id]['content'])
+
+            # now we must heapify our data
+
+
+        else:
+            print('not found' + term)
+         # in this part i want choose k best page
+        tuple_points= list(points.items())
+        reverse_tuples_points = []
+        for t in tuple_points:
+            reverse_tuples_points.append((t[1],t[0]))
+
+        hq._heapify_max(reverse_tuples_points)
+
+        for i in range(how_many_results):
+            if len(reverse_tuples_points) == 0 :
+                print("i cant find " + how_many_results.__str__() + "results for our search")
+                break
+            point = hq._heappop_max(reverse_tuples_points)
+            print(point[0])
+            print(point[1])
 
 
 def mergeInDictionary(original, added):
